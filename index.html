@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet">
+    <title>Sorting Visualizer</title>
+</head>
+<body>
+    <h1>Sorting Visualizer</h1>
+    <navbar>
+        <div class="newarray">
+            <button class="btn" id="new-array">New Array</button>
+        </div>
+        <div class="input">
+            <div id="speed">
+                Speed: <input id="speed-input" type="range" min="5" max="100" value="60">
+            </div>
+            <div id="size">
+                Size: <input id="size-input" type="range" min="20" max="360" value="60">
+            </div>
+        </div>
+        <div class="sort-button">
+            <button class="btn" id="bubblesort">Bubble Sort</button>
+            <button class="btn" id="insertionsort">Insertion Sort</button>
+            <button class="btn" id="mergesort">Merge Sort</button>
+            <button class="btn" id="quicksort">Quick Sort</button>
+            <button class="btn" id="selectionsort">Selection Sort</button>
+        </div>
+    </navbar>
+    <div id="bars">
+        <div class="bar">hello</div>
+    </div>
+    <script src="sorting.js"></script>
+    <script src="bubblesort.js"></script>
+    <script src="insertionsort.js"></script>
+    <script src="mergesort.js"></script>
+    <script src="quicksort.js"></script>
+    <script src="selectionsort.js"></script>
+</body>
+</html>
